@@ -1,0 +1,167 @@
+.contact{
+  height:845px;
+  margin: 0 auto;
+  //display: flex;
+  //justify-content: center;
+  #gform_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    margin-top: 100px;
+    .gform_heading{
+      color: $color-nav-white;
+      .gform_title{
+        color: $color-nav-white;
+      }
+  }
+.gform_body{
+  ul{
+    li{
+      margin-top: 50px;
+      label{
+        color: $color-nav-white;
+      }
+    }
+  }
+}
+    #gform_fields_1{
+      list-style: none;
+      .hidden_sub_label{
+        display: none;
+      }
+    }
+    #gform_submit_button_1{
+      display: flex;
+      justify-content: center;
+      background: $color-nav;
+      color: $color-nav-white;
+      text-align: center;
+      margin: 0 auto;
+      border-radius: 10px;
+      border: 2px solid $color-nav-white;
+    }
+
+}
+}
+
+.cont-info-soc{
+  display: flex;
+  justify-content: center;
+  img{
+    width: 20px;
+    height: 20px;
+    margin: 0 25px;
+  }
+
+}
+
+.autre-moyen{
+
+  margin: 125px 200px;
+h4{
+  text-align: center;
+}
+
+  a{
+    color: $color-nav-white;
+
+    img{
+      width: 80px;
+      height: 80px;
+      margin-right: 50px;
+    }
+  }
+  a{
+    display:flex;
+    text-align: center;
+    margin: 50px auto;
+
+    align-items: center;
+    color:$color-nav-white;
+
+  }
+  p{
+
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    img{
+      width: 80px;
+      height: 80px;
+      margin-right: 50px;
+    }
+  }
+
+  a:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: $fz-cta;
+
+    img{
+      display: flex;
+      justify-content: center;
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}
+
+.sparation{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10%;
+
+}
+footer{
+  margin-top: 530px;
+  margin-bottom: 0;
+  height: 100px;
+  background: $color-nav;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .copyright{
+    color: $color-nav-white;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+
+  .contact{
+    height: 300px;
+  }
+
+  .autre-moyen{
+    margin: 125px auto;
+    h2{
+      text-align: center;
+    }
+    a{
+      img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    p{
+
+      img{
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+
+}
+
