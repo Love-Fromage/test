@@ -340,28 +340,34 @@ z-index: 3;
   }
   nav.desk {
     display: flex;
-    // background-color: #F7F7F7;
-    // ul{
-    //   display: flex;
-    //   justify-content: center;
-    //   background-color: #F7F7F7;
-    //   color: #F7F7F7;;
-    //   margin: 0;
-    //   padding: 20px 0;
-    //   .current{
-    //   background-color: #FFFFFF;
-    //     border-radius: 10px;
-    // }
-    //   li{
-    //
-    //     background-color: #F7F7F7;
-    //     list-style: none;
-    //     padding: 10px;
-    //     margin: 0 15px;
-    //     font-size: rem(18);
-    //     color: #5D6568;
-    //
-    //   }
+    background-color: #F7F7F7;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      background-color: #F7F7F7;
+      color: #F7F7F7;;
+      margin: 0;
+      padding: 20px 0;
+
+      .current {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+      }
+
+      li {
+
+        background-color: #F7F7F7;
+        list-style: none;
+        padding: 10px;
+        margin: 0 15px;
+        font-size: rem(12);
+
+        a{
+          color: #5D6568;
+        }
+      }
+    }
   }
 
 
@@ -376,17 +382,21 @@ z-index: 3;
   .hero {
     display: flex;
     margin: 133px 128px;
+    flex-direction: row;
 
     hr {
+      display: inline-block;
       background: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-      width: 10%;
-      margin-left: 0;
+      width: 20%;
+margin-top: 0;
+      margin-left: 28%;
       margin-right: auto;
     }
 
     p {
-      width: 70%;
+      //width: 70%;
       font-weight: 300;
+      text-align: left;
     }
 
     img {
@@ -398,6 +408,7 @@ z-index: 3;
     }
 
     button {
+      margin-left: 20%;
       margin-top: 50px;
       width: 230px;
       height: 67px;
@@ -412,9 +423,10 @@ z-index: 3;
     position: absolute;
     width: 100%;
     height: 1px;
-    top: 600px;
+    top:500px;
     left: 0;
     z-index: 2;
+    background: gray;
   }
 
   .info {
@@ -431,7 +443,7 @@ z-index: 3;
 
     .cont-dessus {
       p {
-        width: 40%;
+        width: 60%;
         margin: 40px auto;
 
         text-align: center;
@@ -443,7 +455,9 @@ z-index: 3;
 
     .cartes {
 
+      width: 80%;
       display: flex;
+      flex-direction: row;
       margin-top: 30px;
       justify-content: center;
       margin-bottom: 50px;
