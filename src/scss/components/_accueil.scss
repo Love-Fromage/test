@@ -219,7 +219,70 @@ z-index: 3;
   }
 
 
+@media screen and (min-width: 768px){
+  .hamburger{
+    display: none;
+  }
+  .nav{
+    display: none;
+  }
+  .desk{
+    display: block;
+    margin: 0;
+    background-color: gray;
+    li{
+      font-size: rem(10);
+      a{
+        margin-top:0;
+      }
+    }
+    .current{
+      background-color: #FFFFFF;
+    }
+  }
+.wrapper{
+  .hero{
+    display: flex;
+    margin-top: 20px;
+    img{
+      margin: 0 auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
 
+  }
+  .separateur{
+    top:750px;
+  }
+
+
+  .info{
+    .cartes{
+      .carte:nth-child(1){
+        border-radius: 10px 10px 0 0;
+      }
+      .carte:nth-child(5){
+        border-radius: 0 0 10px 10px;
+      }
+    }
+
+    .paragraphes{
+      p{
+        text-align: center;
+        width: 70%;
+        margin-left:5% ;
+        margin-right:5% ;
+      }
+    }
+  }
+
+
+
+}
+
+
+}
 
 
 @media screen and (min-width: 376px){
