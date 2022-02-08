@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="referrer" content="strict-origin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
 <!--    <script src="http://use.fontawesome.com/acb1942180.js"></script>-->
 
@@ -11,11 +12,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="/js/script.js"></script>
+
 
 </head>
 <body>
+<input id="toggle" type="checkbox" />
 
-<nav>
+<label for="toggle" class="hamburger">
+    <div class="top-bun"></div>
+    <div class="meat"></div>
+    <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#">HOME</a><br>
+            <a href="#">ABOUT</a><br>
+            <a href="#">WORK</a><br>
+            <a href="#">SERVICES</a>
+        </nav>
+    </div>
+</div>
+<nav class="desk">
     <ul>
         <li class="current">Introduction</li>
         <li>First Section</li>
