@@ -1,8 +1,9 @@
-@media screen and(max-width: 375px){
+@media screen and(min-width: 375px){
   .desk{
     display: none;
     background-color: red;
   }
+
 
 
     #toggle {
@@ -13,9 +14,9 @@
       Hamburger
     **/
     .hamburger {
-      position: absolute;
-      top: 5em;
-      left: 100%;
+      position: fixed;
+      top: 6.5%;
+      left: 85%;
       margin-left: 0;
       margin-top: -45px;
       width: 2em;
@@ -104,7 +105,119 @@ z-index: 3;
       top: 0;
       transform: scale(1);
     }
+  h1{
+    font-size: $fz-h2;
+    color: #6B6B6B;
+    font-weight: 300;
   }
+  .hero{
+    display: flex;
+    flex-direction:column-reverse;
+    p{
+      width: 75%;
+      text-align: center;
+      margin: 10px auto;
+  }
+
+  }
+
+  .hero-gauche{
+    h1{
+
+      text-align: center;
+
+    }
+    hr{
+      display: none;
+    }
+  }
+
+  .separateur{
+    background: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+  }
+
+  .info{
+    .cont-dessus{
+      h1{
+        text-align: center;
+        font-size: $fz-h2;
+      }
+      hr{
+        background: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+      }
+    p{
+      margin: 20px auto;
+      text-align: center;
+      width: 75%;
+    }
+    }
+  }
+
+  .cartes{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .carte{
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+      justify-content: center;
+      width: 65%;
+      height: 150px;
+      color: white;
+      span{
+        font-size: $fz-h4;
+      }
+      p{
+        margin: 0;
+      }
+    }
+    .carte:nth-child(1){
+
+      background-color: #efa8b0;
+      border-radius: 10px 10px 0 0;
+    }
+    .carte:nth-child(2){
+      background-color: #c79cc8;
+    }
+    .carte:nth-child(3){
+      background-color: #a89cc8;
+    }
+    .carte:nth-child(4){
+      background-color: #9bb2e1;
+    }
+    .carte:nth-child(5){
+      background-color: #8cc9f0;
+      border-radius: 0 0 10px 10px;
+    }
+
+  }
+
+  .paragraphes{
+    width: 75%;
+    text-align: center;
+    margin: 40px auto;
+  }
+  button{
+    display: block;
+    width: 230px;
+    height: 67px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: #6B6B6B;
+    background-color:  #FFFFFF;
+    position: relative;
+    margin: 20px auto;
+
+
+  }
+
+  }
+
 
 
 
