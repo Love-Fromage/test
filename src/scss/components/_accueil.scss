@@ -362,6 +362,7 @@ z-index: 3;
         padding: 10px;
         margin: 0 15px;
         font-size: rem(12);
+        font-weight: 300;
 
         a{
           color: #5D6568;
@@ -541,6 +542,48 @@ margin-top: 0;
     }
 
   }
+}
+
+@media screen and (min-width: 1440px){
+
+nav.desk{
+  ul{
+    //justify-content: space-evenly;
+    li{
+      margin-left: 50px;
+    }
+
+  }
+}
+
+  div.hero{
+    justify-content: space-between;
+    //margin: 0;
+    margin-top: 100px;
+    .hero-gauche{
+      h1{
+        width: fit-content;
+        margin-right: auto;
+        margin-left: 10%;
+      }
+      p{
+        font-size: rem(18);
+        width: 50%;
+        margin-left: 10%;
+      }
+      hr{
+        margin-left: 10%;
+      }
+    }
+    button{
+      margin-left: 10%;
+    }
+  }
+
+  .separateur{
+    top:600px;
+  }
+
 }
 
 
